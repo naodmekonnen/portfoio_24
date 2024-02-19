@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>New Portfolio</title>
+   <link href="style.css" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/6a97874295.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/6a97874295.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/6a97874295.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/6a97874295.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/6a97874295.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/6a97874295.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/6a97874295.js" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/6a97874295.js" crossorigin="anonymous"></script>
+
+   "
+</head>
+<body>
+   <div id="header">
+       <div class="container">
+           <nav>
+               <h2>Naod C</h2>
+               <ul id="sidemenu">
+                   <li><a href="#header">Home</a></li>
+                   <li><a href="#about">About</a></li>
+                   <li><a href="#portfolio">Portfolio</a></li>
+                   <li><a href="#contact">Contact</a></li></li>
+                   <i class="fa-solid fa-x" onclick="closemenu()"></i>
+
+
+               </ul>
+               <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           </nav>
+           <div class="header-text">
+               <h1>I'm a junior web developer experienced<br>
+                   in agile methodologies with the ability to design,<br> 
+                   develop and implement web-based applications. I'm an<br>
+                   excellent communicator and able to learn <br>
+                   and integrate new languages and technologies quickly.
+               </h1>
+           </div>
+       </div>
+   </div>
+
+<!-- ------------------About-Me------------ -->
+   <div id="about">
+       <div class="container">
+               <div class="about-text">
+                   <h1 class="sub-title">About Me</h1>
+                   <div>
+                    <p>I am a dedicated lifelong learner with a deep curiosity about the technologies that power our daily experiences.<br>
+                       My journey into web development has ignited a passion within me to continuously expand my skills and knowledge in this dynamic field.<br> 
+                       I thrive on solving problems and find endless excitement in the ever-evolving landscape of technology.<br>
+                       In my quest for knowledge, I embrace the challenge of mastering new concepts and technologies, knowing that there will always be something new to learn and discover.<br> 
+                       This drive pushes me to stay current with industry trends and best practices, ensuring that I deliver high-quality solutions that meet the needs of today's digital world.<br>
+                       When I'm not immersed in code, you can find me exploring the pages of a good book or embarking on adventures to new places.<br> 
+                       These experiences not only enrich my life but also provide me with fresh perspectives and inspiration that I bring back to my work.</p>
+                   </div>   
+               </div>
+
+       </div>
+   </div>
+
+   <div id="portfolio">
+       <div class="container">
+           <h1 class="sub-title">My Projects</h1>
+           <div class="project-list">
+               <div class="project">
+                   <a href="https://naodmekonnen.github.io/APOD/" target="_blank">
+                       <img src="images/apod.png">
+                   </a>
+               </div>
+   
+               <div class="project">
+                   <a href="https://naodmekonnen.github.io/Weather-App/" target="_blank">
+                       <img src="images/weather.png">
+                   </a>
+               </div>
+   
+               <div class="project">
+                   <a href="https://naodmekonnen.github.io/To-do-list/" target="_blank">
+                       <img src="images/todo.png">
+                   </a>
+               </div>
+               <div class="project">
+                   <a href="https://naodmekonnen.github.io/tic-tac-toe" target="_blank">
+                       <img src="images/tictactoe.png">
+                   </a>
+               </div>
+           </div>
+       </div>   
+   </div>
+   <div id="contact">
+       <div class="container">
+           <div class="row">
+               <div class="contact-left">
+                   <h1 class="sub-title">Contact Me</h1>
+                   <p><i class="fa-solid fa-envelope"></i> contactme@gmail.com</p>
+                   <p><i class="fa-solid fa-phone"></i>(202)2202020</p>
+               <div class="social-icons">
+                   <a href="https://www.linkedin.com/in/naod-chichaibelu/"><i class="fa-brands fa-linkedin"></i></a>
+                   <a href="https://github.com/naodmekonnen"><i class="fa-brands fa-github"></i></a>
+
+               </div>
+               </div>
+               <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                       <input type="text" name="Name" placeholder="Your Name" required>
+                       <input type="email" name="Email" placeholder="Your email" required>
+                       <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                       <button type="submit" class="btn btn2">Submit</button>
+                   </form>
+               </div>
+           </div>
+       </div>
+   </div>
+   
+   <script>
+       var sidemenu=document.getElementById("sidemenu")
+
+       function openmenu(){
+           sidemenu.style.right = "0";
+       }
+
+       function closemenu(){
+           sidemenu.style.right = "-200px";
+       }
+
+   </script>
+
+<script>
+//     const scriptURL = 'https://script.google.com/macros/s/AKfycbxvRElYoOcTLGbtdQ0FU7qcz0PKVptsQHhs2NC98pjDzrajDTIdR6vN_7izK9iSYqD9sA/exec'
+//     const form = document.forms['submit-to-google-sheet']
+ 
+//     form.addEventListener('submit', e => {
+//       e.preventDefault()
+//       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+//         .then(response => console.log('Success!', response))
+//         .catch(error => console.error('Error!', error.message))
+//     })
+
+// const scriptURL = 'https://script.google.com/macros/s/AKfycbxvRElYoOcTLGbtdQ0FU7qcz0PKVptsQHhs2NC98pjDzrajDTIdR6vN_7izK9iSYqD9sA/exec';
+// const form = document.forms['submit-to-google-sheet'];
+
+// form.addEventListener('submit', e => {
+//   e.preventDefault();
+//   fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+//     .then(response => {
+//       console.log('Success!', response);
+//       // Reset the form after successful submission
+//       form.reset();
+//     })
+//     .catch(error => console.error('Error!', error.message));
+// });
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxvRElYoOcTLGbtdQ0FU7qcz0PKVptsQHhs2NC98pjDzrajDTIdR6vN_7izK9iSYqD9sA/exec';
+const form = document.forms['submit-to-google-sheet'];
+
+form.addEventListener('submit', e => {
+ e.preventDefault();
+ fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+   .then(response => {
+     console.log('Success!', response);
+     form.reset(); // Reset the form fields
+   })
+   .catch(error => console.error('Error!', error.message));
+});
+
+
+//   </script>
+
+ <script>
+   
+ </script>
+</body>
+</html>
